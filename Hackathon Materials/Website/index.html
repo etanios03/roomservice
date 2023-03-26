@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Bootstrap Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="fullpage">
+      <div class="text-container">
+        <form class="input-form" name="myForm" method="post" action = "contact.php">
+            <div class="form-row-1">
+                <h1 id="typing-text">I want to find an empty room on</h1>
+                <div class="fade-in">
+                    <label for="date-input"></label>
+                    <input type="date" class="form-control" name="date" id="myDate" required>
+                </div>
+                <h1 id="typing-text-1">at</h1>
+            </div>
+            <div class="form-row-2">
+                <div class="fade-in-1">
+                    <label for="time-input"></label>
+                    <input type="time" class="form-control" name="time" id="myTime" required>
+                </div>
+                <h1 id="typing-text-2">and near this</h1>
+                <div class="fade-in-2">
+                    <label for="place-select"></label>
+                    <select class="form-control" name="place" id="myPlace" required>
+                        <option class="selector" value="">building</option>
+                        <option class="selector" value="Cobb Hall">Cobb Hall</option>
+                        <option value="Harper Mem Library">Harper Mem Library</option>
+                        <option value="Rosenwald Hall">Rosenwald Hall</option>
+                        <option value="Hutchinson Commons">Hutchinson Commons</option>
+                        <option value="Regenstein Library">Regenstein Library</option>
+                        <option value="Logan Center">Logan Center</option>
+                        <option value="Campus North Res Commons">Campus North Res Commons</option>
+                    </select> 
+                </div>
+            </div>
+            <div class="su">
+                <input type="submit" onclick="scrollDown()" class="sub" value="Submit" id="myBtn"> 
+            </div>
+        </form>
+      </div>
+    </div>
+    <div class="image"></div>​
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,188 @@
+@font-face {
+    font-family: monospace;
+    src: url("./font/Monospace.ttf") format("truetype");
+  }
+
+body {
+    font-family: monospace;
+    background-image: url("./background/UChicago_Aerial-Mansueto.jpg");
+
+}
+  
+input[type=date]::-webkit-calendar-picker-indicator,
+input[type=time]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.fullpage {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: white;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: maroon;
+    font-family: inhert;
+  }
+  
+  #textcontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+    opacity: 0.9;
+    min-height: 500px;
+    font-family: inhert;
+    z-index: 1;
+  }
+
+  .su .sub {
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    width: 60rem;
+    height: 3.5rem;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: inhert;
+    display: block;
+    margin-top: 5rem;
+    opacity: 0;
+    animation: fade-in-2 0.5s ease-in-out 4.3s forwards;
+  }
+
+  .su .sub:hover {
+    background-color: white;
+    color: maroon;
+  }
+
+  .selector{
+    color: #fff;
+    background: #bc0000;
+  }
+  
+  .centered {
+    text-align: center;
+    color: white;
+  }
+
+  .input-form .form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top: -1.4rem;
+    font-family: inhert;
+  }
+
+  .input-form .form-control:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+  }
+
+  .form-row-1 > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .form-row-2 > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .form-control {
+      text-align: center;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none;
+    background-color: transparent;
+    color: white;
+  }
+  
+  body {
+    background-image: url("paper.gif");
+  }
+
+  button {
+    margin-left: 1rem;
+    background-color: white;
+    color: maroon;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fade-in 0.5s ease-in-out 2s forwards;
+  }
+
+  .fade-in-1 {
+    opacity: 0;
+    animation: fade-in 0.5s ease-in-out 2.8s forwards;
+  }
+  
+  .fade-in-2 {
+    opacity: 0;
+    animation: fade-in 0.5s ease-in-out 3.7s forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      transform: translateX(-5%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in-2 {
+    from {
+      transform: translateY(5%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  
+  
+
+  
+  
